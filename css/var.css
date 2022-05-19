@@ -1,0 +1,34 @@
+:root {
+  --text-color: #383A4C;
+  --background-color: #F9F9F9;
+
+  --white-color: #ffffff;
+
+  --aqua-color: #15a9cb;
+  --lightaqua-color: #23c7ec;
+  --darkaqua-color: #4a76a8;
+  --darker-than-darkaqua-color: #2f324b;
+  --blackaqua-color: #2a2c3f;
+
+  --brow-color: #434343;
+}
+
+
+.about {
+  --cart-count: 4;
+  --gap: 50px;
+}
+
+@media (max-width: 768px) {
+  .about {
+    --cart-count: 2;
+    --gap: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+  --cart-count: 1;
+  --gap: 40px;
+  }
+}

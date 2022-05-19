@@ -1,0 +1,114 @@
+.present {
+  color: var(--white-color, #ffffff);
+  text-align: center;
+  background-image: url("../img/present-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  z-index: 3;
+  padding-top: 228px;
+}
+
+.present:before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  background: rgba(47, 50, 75, 0.85);
+  z-index: -1;
+}
+
+.present__title {
+  max-width: 960px;
+  align-self: center;
+  font-size: 52px;
+  font-weight: 900;
+  line-height: 61px;
+  opacity: .86;
+  margin: 0 auto 35px auto;
+} 
+
+.present__text {
+  max-width: 960px;
+  align-self: center;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 31px;
+  opacity: .75;
+  margin: 0 auto 90px auto;
+} 
+
+.present__button {
+  height: 48px;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 23px;
+  color: var(--white-color, #ffffff);
+  background-color: var(--aqua-color);
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
+  padding: 12px 48px;
+  margin-bottom: 50px;
+}
+
+@media (max-width: 1024px) {
+  .present {
+    padding-top: 156px;
+  }
+
+  .present__title {
+    max-width: 780px;
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 25.57px;
+  }
+
+  .present__text {
+    max-width: 780px;
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 60.43px;
+  }
+
+  .present__button {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .present {
+    background-size: cover;
+    background-position: left;
+    padding-top: 110px;
+  }
+
+  .present__title {
+    max-width: 290px;
+    font-size: 20px;
+    line-height: 23px;
+    margin-bottom: 23px;
+  }
+  
+  .present__text {
+    height: 77px;
+    max-width: 290px;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 54px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+
+  .present__button {
+    height: 38px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 19px;
+    padding: 9px 29px;
+    margin-bottom: 35px;
+  }
+}
