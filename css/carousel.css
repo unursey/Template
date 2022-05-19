@@ -64,14 +64,14 @@
 
 .carousel__prev-slide {
   position: relative;
-  width: 49%;
+  width: 38px;
   text-align: left;
   left: 0;
 }
 
 .carousel__next-slide {
   position: relative;
-  width: 49%;
+  width: 38px;
   text-align: right;
   right: 0;
 }
@@ -113,6 +113,6 @@ input:checked+.carousel__container .carousel__controls .carousel__label {
 @media (max-width: 480px) {
   .carousel {
     display: block;
-    margin-bottom: 30px;
+    margin-bottom: 22px;
   }
 }

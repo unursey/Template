@@ -20,6 +20,7 @@
 @media (max-width: 1024px) {
   .header {
     margin-bottom: -100px;
+    padding-top: 26px;
   }
   .header__logo {
     height: 60px;

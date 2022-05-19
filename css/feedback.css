@@ -88,6 +88,10 @@
 }
 
 @media (max-width: 1024px) {
+  .feedback {
+    padding-bottom: 56px;
+  }
+
   .feedback__title {
     font-size: 32px;
     line-height: 38px;
@@ -117,20 +121,25 @@
   .feedback__text-agree {
     font-size: 17px;
     line-height: 20px;
+  
   }
 }
 
 @media (max-width: 480px) {
+  .feedback {
+    padding-bottom: 28px;
+  }
+
   .feedback__title {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
   }
 
   .feedback__text {
     font-size: 12px;
     line-height: 14px;
-    margin-bottom: 35px;
+    margin-bottom: 37px;
   }
 
   .feedback__input {
@@ -138,6 +147,8 @@
     height: 28px;
     font-size: 14px;
     line-height: 16px;
+    padding-left: 18px;
+    
   }
 
   .feedback__label:not(:last-child) {
