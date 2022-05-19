@@ -1,4 +1,4 @@
-.carousel__slides {
+.carousel {
   display: none;
   position: relative;
   height: 192px;
@@ -8,7 +8,7 @@
   list-style: none;
 }
 
-.carousel__slides * {
+.carousel * {
   user-select: none;
   -ms-user-select: none;
   -moz-user-select: none;
@@ -17,7 +17,7 @@
   -webkit-touch-callout: none;
 }
 
-.carousel__slides input {
+.carousel input {
   display: none;
 }
 
@@ -111,7 +111,7 @@ input:checked+.carousel__container .carousel__controls .carousel__label {
 
 
 @media (max-width: 480px) {
-  .carousel__slides {
+  .carousel {
     display: block;
     margin-bottom: 30px;
   }
