@@ -11,7 +11,7 @@
   font-size: 35px;
   font-weight: 700;
   line-height: 41px;
-  margin-bottom: 26px;
+  margin-bottom: 25px;
 } 
 
 .about__subtitle {
@@ -93,7 +93,7 @@
   .about__title {
     font-size: 32px;
     line-height: 38px;
-    margin-bottom: 23px;
+    margin-bottom: 25px;
   }
 
   .about__subtitle {
@@ -148,7 +148,7 @@
   .about__subtitle {
     font-size: 16px;
     line-height: 19px;
-    margin-bottom: 29px;
+    margin-bottom: 30px;
   }
 
   .about__subtitle-span {

@@ -100,11 +100,11 @@
 
   .feedback__text {
     font-size: 20px;
-    line-height: 23px;
+    line-height: 22px;
   }
 
   .feedback__input {
-    min-width: 377px;
+    min-width: 378px;
     height: 39px;
     font-size: 20px;
     line-height: 23px;
@@ -133,18 +133,18 @@
   .feedback__title {
     font-size: 20px;
     line-height: 23px;
-    margin-bottom: 12px;
+    margin-bottom: 13px;
   }
 
   .feedback__text {
     font-size: 12px;
     line-height: 14px;
-    margin-bottom: 37px;
+    margin-bottom: 35px;
   }
 
   .feedback__input {
     min-width: 290px;
-    height: 28px;
+    height: 29px;
     font-size: 14px;
     line-height: 16px;
     padding-left: 18px;
@@ -152,11 +152,11 @@
   }
 
   .feedback__label:not(:last-child) {
-    margin-bottom: 15px;
+    margin-bottom: 14px;
   }
 
   .feedback__fieldset {
-    margin-bottom: 45px;
+    margin-bottom: 44px;
   }
 
   .feedback__button {
